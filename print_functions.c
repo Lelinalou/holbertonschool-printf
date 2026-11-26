@@ -23,6 +23,9 @@ int print_str(va_list args)
 
 	while (s[len] != '\0')
 	{
+		if (s == NULL)
+			s = "(null)";
+		
 		_putchar(s[len]);
 
 		len++;
