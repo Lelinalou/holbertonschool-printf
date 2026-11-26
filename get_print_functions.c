@@ -7,7 +7,7 @@ int(*get_print_functions(char a))(va_list)
 	{"s", print_str},
 	//{"d", print_int},
 	//{"i", print_int},
-	//{"%", print_percent},
+	{"%", print_percent},
 	{NULL, NULL}
 	};
 

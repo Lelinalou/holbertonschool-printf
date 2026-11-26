@@ -18,6 +18,7 @@ int print_char(va_list args);
 int _putchar(char c);
 int(*get_print_functions(char a))(va_list);
 int print_str(va_list args);
+int print_percent(va_list args);
 
 
 
