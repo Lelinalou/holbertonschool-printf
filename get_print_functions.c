@@ -4,7 +4,7 @@ int(*get_print_functions(char a))(va_list)
 {
 	print_t prints[] = {
 	{"c", print_char},
-	//{"s", print_str},
+	{"s", print_str},
 	//{"d", print_int},
 	//{"i", print_int},
 	//{"%", print_percent},
