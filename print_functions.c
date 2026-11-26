@@ -18,3 +18,10 @@ int print_str(va_list args)
 	}
 	return(len);
 }
+
+int print_percent(va_list args)
+{
+	(void)args;
+	_putchar('%');
+	return (1);
+}
