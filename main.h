@@ -6,11 +6,16 @@
 #include <stdarg.h>
 #include "main.h"
 
+/**
+ * struct print - print function
+ * @print: the format string
+ * @pf: the print function
+ */
 typedef struct print
 {
 	char *print;
 	int (*pf)(va_list);
-}print_t;
+} print_t;
 
 
 int _printf(const char *format, ...);
