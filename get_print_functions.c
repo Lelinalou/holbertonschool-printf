@@ -11,6 +11,8 @@ int(*get_print_functions(char a))(va_list)
 	{"c", print_char},
 	{"s", print_str},
 	{"%", print_percent},
+	{"d", print_int},
+	{"i", print_int},
 	{NULL, NULL}
 	};
 
